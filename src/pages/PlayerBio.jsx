@@ -12,9 +12,9 @@ const players = [
       "https://th.bing.com/th/id/OIP.ldpkdaCRrzDqaFn8LpTcuQHaE8?cb=iwp1&rs=1&pid=ImgDetMain",
     bio: "Lionel Messi, born June 24, 1987, is an Argentine professional footballer widely regarded as one of the greatest players of all time. Known for his incredible dribbling, vision, and goal-scoring ability, Messi has won multiple Ballon d'Or awards and has enjoyed successful stints at FC Barcelona and Paris Saint-Germain.",
     stats: {
-      goals: 821,
+      goals: 859,
       assists: 361,
-      trophies: 44,
+      trophies: 45,
       clubs: ["Barcelona", "PSG", "Inter Miami"],
       rating: 93,
     },
@@ -26,9 +26,9 @@ const players = [
       "https://cdn.vox-cdn.com/thumbor/3cttoixeZE0gU6TJEO1y1pv7-KU=/0x0:3796x2808/1200x800/filters:focal(1579x730:2185x1336)/cdn.vox-cdn.com/uploads/chorus_image/image/59865493/962792726.jpg.0.jpg",
     bio: "Cristiano Ronaldo, born February 5, 1985, is a Portuguese professional footballer widely regarded as one of the greatest players of all time. Also recognized for his incredible athleticism, finishing skills, and leadership. Ronaldo has played for top clubs such as Manchester United, Real Madrid, Juventus, and is known for his consistency in scoring goals. He has won numerous titles, including five Ballon d'Or awards.",
     stats: {
-      goals: 885,
+      goals: 917,
       assists: 234,
-      trophies: 34,
+      trophies: 48,
       clubs: [
         "Sporting CP",
         "Man United",
@@ -36,7 +36,7 @@ const players = [
         "Juventus",
         "Al Nassr",
       ],
-      rating: 92,
+      rating: 93,
     },
   },
   {
@@ -160,7 +160,7 @@ export default function PlayerBio() {
             initial={{ y: -20 }}
             animate={{ y: 0 }}
             transition={{ duration: 0.5 }}
-            className="text-4xl font-extrabold text-white sm:text-5xl mb-4 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent"
+            className="text-4xl font-extrabold text-white sm:text-5xl mb-4 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text "
           >
             Football Legends
           </motion.h1>

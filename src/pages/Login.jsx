@@ -147,7 +147,7 @@ export default function LoginPage() {
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.7, duration: 0.5 }}
-                className="text-3xl font-bold text-white mt-6 bg-gradient-to-r from-white to-purple-200 bg-clip-text text-transparent"
+                className="text-3xl font-bold text-white mt-6 bg-gradient-to-r from-white to-purple-200 bg-clip-text "
               >
                 Welcome Back
               </motion.h2>
